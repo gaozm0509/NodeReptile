@@ -8,8 +8,10 @@ const app = new Koa();
 
 const router = new koa_router();
 
-router.get('/index', async ctx => {
-    var reulst = await index.reptile();
+router.get('/index/:coin/:txid', async ctx => {
+    var txid = ctx.params.txid;
+    var coin = ctx.params.coin;
+    var reulst = await index.reptile(txid, coin);
     ctx.body = reulst;
 });
 
