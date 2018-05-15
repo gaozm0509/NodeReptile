@@ -1,0 +1,25 @@
+{
+  "name": "nodereptile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaozm0509/NodeReptile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaozm0509/NodeReptile/issues"
+  },
+  "homepage": "https://github.com/gaozm0509/NodeReptile#readme",
+  "dependencies": {
+    "etherscan-api": "^8.0.4",
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "request": "^2.85.0"
+  }
+}

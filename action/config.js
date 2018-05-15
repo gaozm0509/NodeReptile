@@ -1,0 +1,3 @@
+module.export = {
+    EHTApiKey: 'MDXS8AJP99BIAX1NREWM8GN15NTZPU2VDH'
+}
